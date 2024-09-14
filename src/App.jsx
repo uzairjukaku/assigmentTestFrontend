@@ -255,8 +255,9 @@ function App() {
         <div>Classes Report</div>
         <div className="flex space-x-2 mb-4">
           <Select
-            defaultValue=""
-            style={{ width: 120 }}
+            
+            style={{ width: 300 }}
+          placeholder="Select a Instructor"
             onChange={setInstructor}
             options={instructors.map((instructor) => ({
               value: instructor.id,
